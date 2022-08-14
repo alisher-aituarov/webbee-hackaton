@@ -88,7 +88,6 @@ export const appSlice = createSlice({
         name?: string;
       }>,
     ) => {
-      console.log(payload);
       const machineType = state.types.find(
         (type) => type.id === payload.machineTypeId,
       );
